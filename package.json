@@ -1,0 +1,24 @@
+{
+  "name": "employee-management-system",
+  "version": "1.0.0",
+  "description": "A CLA designed to manage a company's databased employee data using Node.js, Inquirer, and PostgreSQL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apoborka/Employee-Management-System.git"
+  },
+  "author": "Alex Poborka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apoborka/Employee-Management-System/issues"
+  },
+  "homepage": "https://github.com/apoborka/Employee-Management-System#readme",
+  "dependencies": {
+    "inquirer": "^12.4.1",
+    "node": "^23.7.0",
+    "pg": "^8.13.1"
+  }
+}
