@@ -29,8 +29,9 @@ Run the following commands within the psql instance:
 \i seeds.sql
 ```
 
-Open the terminal on the root folder and type the following commands to build and run the application:
+Open the terminal on the root folder and type the following commands to install dependencies, build, then run the application:
 ```
+npm i
 npx tsc
 node dist/index.js
 ```
