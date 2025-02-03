@@ -46,7 +46,7 @@ node dist/index.js
 ## Usage
 [Walkthrough Video](https://drive.google.com/file/d/1E6Ayf9MJ3Hb_wyGGTscoeOqR6BKPPlOC/view?usp=sharing)
   
-The Main Menu of the application displays options for viewing all deparments, roles, and employees. Departments, roles, and employees can also be added. Employees can be updated.
+The Main Menu of the application displays options for viewing all departments, roles, and employees. Departments, roles, and employees can also be added. Employees can be updated.
 ![An image of the main menu of the command line application, showing options for the aforementioned actions.](assets/mainMenu.jpg)
 
 Viewing all departments will display the ID and Name of all existing departments. ![An image of the Department table created using mock data.](assets/viewAllDepartments.jpg)
