@@ -1,5 +1,5 @@
 
-# Employee Management DB Interface
+# Employee Management DB + Interface
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
