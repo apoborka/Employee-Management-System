@@ -1,4 +1,5 @@
-INSERT INTO department (id, "name")
+-- Insert initial data into department table
+INSERT INTO department ("id", "name")
 VALUES (1, 'Sales'),
     (2, 'Operations'),
     (3, 'Engineering'),
@@ -6,7 +7,11 @@ VALUES (1, 'Sales'),
     (5, 'Finance'),
     (6, 'Marketing');
 
-INSERT INTO "role" (title, salary, department_id)
+-- Reset the sequence for the department id column
+SELECT setval(pg_get_serial_sequence('department', 'id'), COALESCE(MAX(id), 1)) FROM department;
+
+-- Insert initial data into role table
+INSERT INTO role (title, salary, department_id)
 VALUES ('CSO', 90000, 1), -- role_id = 1
     ('COO', 90000, 2), -- role_id = 2
     ('CTO', 90000, 3), -- role_id = 3
@@ -30,6 +35,10 @@ VALUES ('CSO', 90000, 1), -- role_id = 1
     ('Marketing Specialist', 56000, 6), -- role_id = 21
     ('SEO Specialist', 56000, 6); -- role_id = 22
 
+-- Reset the sequence for the role id column
+SELECT setval(pg_get_serial_sequence('role', 'id'), COALESCE(MAX(id), 1)) FROM role;
+
+-- Insert initial data into employee table
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES 
 ('Cyrus', 'Johns', 1, NULL), -- Sales department manager, employee_id = 1
@@ -80,3 +89,6 @@ VALUES
 ('Emerson', 'Guerrero', 20, 6), -- Coordinator, Marketing
 ('Margot', 'Evans', 21, 6), -- Marketing Specialist, Marketing
 ('Elias', 'Acosta', 22, 6); -- SEO Specialist, Marketing
+
+-- Reset the sequence for the employee id column
+SELECT setval(pg_get_serial_sequence('employee', 'id'), COALESCE(MAX(id), 1)) FROM employee;
