@@ -1,5 +1,5 @@
 
-# Weather Dashboard 1.0
+# Employee Management DB Interface
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
@@ -74,5 +74,7 @@ Email: alex.poborka@example.com
 
 ## Acknowledgments
 This project utilized GitHub Copilot.
+
 This project utilized EdX's Xpert Learning Assistant.
+
 Mock employee data was created using [1000 Random Names](https://1000randomnames.com/).
