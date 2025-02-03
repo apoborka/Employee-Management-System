@@ -70,7 +70,7 @@ There are currently no tests implemented in this program at this time.
 ## Questions
 ##### For any questions regarding this project, contact the project owner via: 
 GitHub: [apoborka](https://github.com/apoborka)\
-Email: alex.poborka@example.com
+Email: alex.poborka@gmail.com
 
 ## Acknowledgments
 This project utilized GitHub Copilot.
