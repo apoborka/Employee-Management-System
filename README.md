@@ -15,23 +15,29 @@ A CLA designed from scratch to create an employee management database that can b
 - [Questions](#questions)
 
 ## Installation
-Note: Requires PostgreSQL, which can be installed from the [PostgreSQL website](https://www.postgresql.org/download/).\
-Clone the repository.\
-Open the terminal on the db folder and start a psql   instance by typing:
+Note: Requires PostgreSQL, which can be installed from the [PostgreSQL website](https://www.postgresql.org/download/).
+
+Clone the repository.
+
+In the terminal, navigate to the root folder and run the following command to install dependencies:
+```
+npm i
+```
+
+In the terminal, navigate the db folder and start a psql instance by typing:
 ```
 psql -U postgres
 ```
 
 Run the following commands within the psql instance:
-(Note: seeds.sql will populate mock data.)
+(Note: seeds.sql will populate mock data. Do not run this file if you wish to start with an empty database.)
 ```
 \i schema.sql
 \i seeds.sql
 ```
 
-Open the terminal on the root folder and type the following commands to install dependencies, build, then run the application:
+In the terminal, navigate to the root folder and type the following commands to build and run the application:
 ```
-npm i
 npx tsc
 node dist/index.js
 ```
