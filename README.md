@@ -29,7 +29,7 @@ In the terminal, navigate the db folder and start a psql instance by typing:
 psql -U postgres
 ```
 
-Run the following commands within the psql instance:
+Run the following commands within the psql instance in the order shown:
 (Note: seeds.sql will populate mock data. Do not run this file if you wish to start with an empty database.)
 ```
 \i schema.sql
@@ -44,7 +44,7 @@ node dist/index.js
 
 
 ## Usage
-[Walkthrough Video]()
+[Walkthrough Video](https://drive.google.com/file/d/1E6Ayf9MJ3Hb_wyGGTscoeOqR6BKPPlOC/view?usp=sharing)
   
 The Main Menu of the application displays options for viewing all deparments, roles, and employees. Departments, roles, and employees can also be added. Employees can be updated.
 ![An image of the main menu of the command line application, showing options for the aforementioned actions.](assets/mainMenu.jpg)
